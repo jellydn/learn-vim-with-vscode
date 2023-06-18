@@ -32,5 +32,42 @@
     "command": "cursorUp",
     "key": "k",
     "when": "editorTextFocus && neovim.mode == normal"
+  },
+  // multi cursors, refer https://github.com/vscode-neovim/vscode-neovim/issues/409#issuecomment-830796423
+  {
+    "command": "vscode-neovim.send",
+    "key": "ctrl+n",
+    "when": "editorTextFocus && neovim.mode != insert",
+    "args": "<c-n>"
+  },
+  {
+    "command": "vscode-neovim.send",
+    "key": "ctrl+up",
+    "when": "editorTextFocus && neovim.mode != insert",
+    "args": "<c-up>"
+  },
+  {
+    "command": "vscode-neovim.send",
+    "key": "shift+up",
+    "when": "editorTextFocus && neovim.mode != insert",
+    "args": "<S-up>"
+  },
+  {
+    "command": "vscode-neovim.send",
+    "key": "shift+down",
+    "when": "editorTextFocus && neovim.mode != insert",
+    "args": "<S-down>"
+  },
+  {
+    "command": "vscode-neovim.send",
+    "key": "shift+left",
+    "when": "editorTextFocus && neovim.mode != insert",
+    "args": "<S-left>"
+  },
+  {
+    "command": "vscode-neovim.send",
+    "key": "shift+right",
+    "when": "editorTextFocus && neovim.mode != insert",
+    "args": "<S-right>"
   }
 ]
