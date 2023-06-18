@@ -1,0 +1,6 @@
+{
+  "vscode-neovim.neovimExecutablePaths.darwin": "/Users/huynhducdung/.local/share/bob/nvim-bin/nvim",
+  "extensions.experimental.affinity": {
+    "asvetliakov.vscode-neovim": 1
+  }
+}
