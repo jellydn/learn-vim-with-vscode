@@ -3,6 +3,8 @@
 This project aims to guide you through setting up and learning Vim within Visual Studio Code using the VSCodeVim and VSCode-Neovim extensions.
 </p>
 
+[![IT Man - Tip #38 - Learn Vim with VSCode [Vietnamese]](https://i.ytimg.com/vi/yTTPRm0ACl0/hqdefault.jpg)](https://www.youtube.com/watch?v=yTTPRm0ACl0)
+
 ## Setup
 
 ### VSCodeVim
