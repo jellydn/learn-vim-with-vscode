@@ -1,4 +1,6 @@
 {
+  "vim.foldfix": true,
+  "vim.highlightedyank.enable": true,
   "vim.easymotion": true,
   "vim.incsearch": true,
   "vim.useSystemClipboard": true,
@@ -20,8 +22,8 @@
       "commands": [":nohl"]
     },
     {
-      "before": ["K"],
-      "commands": ["lineBreakInsert"],
+      "before": [":"],
+      "commands": ["workbench.action.showCommands"],
       "silent": true
     }
   ],
